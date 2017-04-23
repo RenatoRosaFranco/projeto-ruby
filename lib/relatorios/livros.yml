@@ -1,0 +1,36 @@
+--- !ruby/object:Livro
+titulo: Aprendendo Com Ruby
+valor: 80.0
+categoria: :ruby
+desconto: 0.1
+autor: Mauricio Aniche
+numero_paginas: 247
+isbn: 197-8794SA
+
+--- !ruby/object:Livro
+titulo: Aprendendo Com Ruby
+valor: 80.0
+categoria: :ruby
+desconto: 0.1
+autor: Mauricio Aniche
+numero_paginas: 247
+isbn: 197-8794SA
+
+--- !ruby/object:Livro
+titulo: Aprendendo com Java
+valor: 90.0
+categoria: :desenvolvimento
+desconto: 0.1
+autor: Lucas Caeton
+numero_paginas: 325
+isbn: 878-ASO7
+
+--- !ruby/object:Livro
+titulo: Aprendendo com Design Patterns
+valor: 79.9
+categoria: :web_design
+desconto: 0.1
+autor: DesignPatterns
+numero_paginas: 150
+isbn: 8475-AOLS
+
