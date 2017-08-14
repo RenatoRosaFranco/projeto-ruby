@@ -1,0 +1,6 @@
+--- !ruby/object:Revista
+titulo: SuperNatural
+valor: 10.9
+id: 4
+destroyed: false
+new_record: false

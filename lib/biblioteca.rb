@@ -35,7 +35,7 @@ class Biblioteca
 	 # Livros
 	 # @implementado
 	 def midias
-	 	@midias ||=  @banco_de_arquivos.carrega
+	 	@midias ||= @banco_de_arquivos.carrega
 	 end
 
 	 # Livros por Categoria
@@ -66,7 +66,7 @@ end
 
 # Livros
 # Instancias
-livro1 = Livro.new("Aprendendo Com Ruby", "Mauricio Aniche", 247, "197-8794SA", 80.00, :ruby)
+livro1 = Livro.new("Aprendendo com Ruby", "Mauricio Aniche", 247, "197-8794SA", 80.00, :ruby)
 livro2 = Livro.new("Aprendendo com Java", "Lucas Caeton", 325, "878-ASO7", 90.00, :desenvolvimento)
 livro3 = Livro.new("Aprendendo com Design Patterns", "DesignPatterns", 150, "8475-AOLS", 79.90, :web_design)
 

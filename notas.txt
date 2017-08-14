@@ -1,0 +1,56 @@
+Nota : Renato Rosa Franco
+Curso : Engenharia de Computação 
+Disciplina : Orientação a Objetos - Ruby
+
+Módulos
+  
+  EXTEND X INCLUDE
+  
+  O uso do extend adiciona os métodos
+  do modulo a classe e estes passam a ser métodos de classe
+
+  module A 
+
+  	   def sayHello
+  	     puts "Hello from #{self}"
+  	   end
+
+  end
+
+  # Classe B
+  class B 
+
+       # extende o módulo A
+       extend A
+
+  end
+
+  Se você pedir para o irb retornar os metodos de instancia da classe 
+  para a classe B não encontratá o say Hello pois o mesmo é um método de
+  classe, para comfirmar basta executar
+
+  B.methods.sort.grep /^S/
+  ele deve estar entre os primeiros [:sayHello]
+
+  o uso do include adiciona os metodos
+  a instancia da classe e estes mesmos passam a ser métodos de instancia
+  
+  # Classe C
+  class C
+
+      # Inclui o módulo A
+      include A
+
+  end
+
+  se você pedir para o irb retornar os metodos da classe para C não
+  encontrará o sayHello pois o mesmo é um método de instancia da classe,
+  para confirmar basta executar C.methods.sort.grep /^s/ ele não 
+  estará la
+
+  agora se pedir ao irb para retornar os métodos de instancia da classe
+  C.instance_methods.sort.grep /^s/ ele estará entre os primeiros [:sayHello]
+
+  REFINEMENTS
+
+  

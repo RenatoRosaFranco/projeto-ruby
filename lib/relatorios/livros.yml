@@ -1,3 +1,4 @@
+
 --- !ruby/object:Livro
 titulo: Aprendendo Com Ruby
 valor: 80.0
@@ -8,7 +9,7 @@ numero_paginas: 247
 isbn: 197-8794SA
 
 --- !ruby/object:Livro
-titulo: Aprendendo Com Ruby
+titulo: Aprendendo com Ruby
 valor: 80.0
 categoria: :ruby
 desconto: 0.1
